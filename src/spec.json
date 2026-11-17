@@ -1,0 +1,230 @@
+{
+  "title": "Gestione corsi di formazione interna",
+  "description": "Catalogo, programmazione e iscrizioni ai corsi con monitoraggio dei posti disponibili.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dei corsi e delle iscrizioni in programma.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Prossimi corsi",
+          "value": "5"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "34"
+        },
+        {
+          "label": "Iscrizioni confermate",
+          "value": "78"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Fondamenti di analisi",
+          "Lumo Verri",
+          "12/06/2026",
+          "8"
+        ],
+        [
+          "Comunicazione chiara",
+          "Vela Neri",
+          "18/06/2026",
+          "3"
+        ],
+        [
+          "Strumenti collaborativi",
+          "Nubi Sali",
+          "24/06/2026",
+          "12"
+        ],
+        [
+          "Gestione del tempo",
+          "Riva Tami",
+          "02/07/2026",
+          "6"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra i corsi per titolo, docente, data e disponibilità.",
+      "metrics": [
+        {
+          "label": "Corsi in catalogo",
+          "value": "18"
+        },
+        {
+          "label": "Corsi con posti liberi",
+          "value": "14"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fondamenti di analisi",
+          "Lumo Verri",
+          "12/06/2026",
+          "8",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Comunicazione chiara",
+          "Vela Neri",
+          "18/06/2026",
+          "3",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti collaborativi",
+          "Nubi Sali",
+          "24/06/2026",
+          "12",
+          "20",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione del tempo",
+          "Riva Tami",
+          "02/07/2026",
+          "6",
+          "14",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura efficace",
+          "Mira Dori",
+          "09/07/2026",
+          "0",
+          "10",
+          "Completo"
+        ],
+        [
+          "Riunioni produttive",
+          "Taro Leni",
+          "15/07/2026",
+          "9",
+          "15",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "nuovo-corso",
+      "title": "Programmazione corsi",
+      "description": "Aggiungi un corso al catalogo indicando docente, data e capienza.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Gestisci le iscrizioni ai corsi e verifica i posti ancora disponibili.",
+      "metrics": [
+        {
+          "label": "Iscrizioni totali",
+          "value": "78"
+        },
+        {
+          "label": "In attesa",
+          "value": "6"
+        },
+        {
+          "label": "Posti assegnati",
+          "value": "92"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Partecipante",
+        "Data",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fondamenti di analisi",
+          "Nara Lumo",
+          "12/06/2026",
+          "Confermata"
+        ],
+        [
+          "Comunicazione chiara",
+          "Tavi Sera",
+          "18/06/2026",
+          "Confermata"
+        ],
+        [
+          "Strumenti collaborativi",
+          "Eli Varo",
+          "24/06/2026",
+          "In attesa"
+        ],
+        [
+          "Gestione del tempo",
+          "Dena Rumi",
+          "02/07/2026",
+          "Confermata"
+        ],
+        [
+          "Riunioni produttive",
+          "Silo Mera",
+          "15/07/2026",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Partecipante",
+        "Data",
+        "Stato"
+      ]
+    }
+  ]
+}
